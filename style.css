@@ -118,3 +118,11 @@ input.search-box {
 	justify-content: space-between;
 	cursor: pointer;
 }
+
+.select-box ol li:hover {
+	background-color: lightcyan;
+}
+
+.select-box ol li .county-name {
+	margin-left: .4rem;
+}
