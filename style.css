@@ -43,6 +43,9 @@ body {
 	align-items: center;
 }
 
-.selected-option {
-	
+.selected-option div{
+	width: 6rem;
+	padding: 0 2.8rem 0 .5rem;
+	text-align: center;
+	cursor: pointer;
 }
