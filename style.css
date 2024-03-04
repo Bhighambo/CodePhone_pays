@@ -48,6 +48,7 @@ input[type="tel"]{
 	align-items: center;
 }
 
+
 .selected-option div{
 	position: relative;
 	width: 6rem;
@@ -66,7 +67,13 @@ input[type="tel"]{
 	width: .8rem;
 	height: .8rem;
 	border-right: .12rem solid var(--primary);
-	border-bottom: .12rem solid var(--secondary);
+	border-bottom: .12rem solid var(--primary);
+
+	transition: .2s;
+}
+
+.selected-option div.active::after{
+	transform: translateY(-50%) rotate(225deg);
 }
 
 .select-box .options {
@@ -75,6 +82,11 @@ input[type="tel"]{
 	width: 100%;
 	background-color: #fff;
 	border-radius: .5rem;
+	display: none;
+}
+
+.select-box .options.active {
+	display: block;
 }
 
 .select-box .options::before {
@@ -88,7 +100,6 @@ input[type="tel"]{
 	border: .6rem solid transparent;
 	border-bottom-color: var(--primary);
 }
-
 input.search-box {
 	background-color: var(--primary);
 	color: white;

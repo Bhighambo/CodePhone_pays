@@ -11,15 +11,15 @@
 	<div class="select-box">
 		<div class="selected-option">
 			<div>
-				<span class="iconify" data-icon="flag:gb-4x3"></span>
-				<strong>+44</strong>
+				<span class="iconify" data-icon="flag:cd-4x3"></span>
+				<strong>+243</strong>
 			</div>
 			<input type="tel" name="tel" placeholder="Phone Number">
 		</div>
 		<div class="options">
 			<input type="text" name="" class="search-box" placeholder="Recheche du pays">
 			<ol>
-				<li class="option">
+				<!-- <li class="option">
 					<div>
 						<span class="iconify" data-icon="flag:cd-4x3"></span>
 						<span class="county-name">DR Congo</span>
@@ -124,7 +124,7 @@
 						<span class="county-name">United</span>
 					</div>
 					<strong>+1</strong>
-				</li>
+				</li> -->
 			</ol>
 		</div>
 		
