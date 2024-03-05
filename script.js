@@ -26,7 +26,7 @@ const countries = [
     { name: "Bhoutan", code: "BT", phone: 975 },
     { name: "Bolivie", code: "BO", phone: 591 },
     { name: "Bosnie-Herzégovine", code: "BA", phone: 387 },
-    { name: "Botswana", code: "BW", phone: 967 },
+    { name: "Botswana", code: "BW", phone: 267 },
     { name: "Bouvet, Ile", code: "BV", phone: 967 },
     { name: "Brésil", code: "BR", phone: 967 },
     { name: "Brunéi Darussalam", code: "BN", phone: 967 },
