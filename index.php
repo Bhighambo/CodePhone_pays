@@ -19,13 +19,11 @@
 		<div class="options">
 			<input type="text" name="" class="search-box" placeholder="Recheche du pays">
 			<ol>
-				
+
 			</ol>
 		</div>
-		
 	</div>
-
-	<script src="script.js"></script>
+	<script src="java.js"></script>
 
 </body>
 </html>
