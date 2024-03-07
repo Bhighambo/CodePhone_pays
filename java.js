@@ -84,26 +84,21 @@ const countries = [
     { name: "Haïti", code: "HT", phone: 509 },
     { name: "Honduras", code: "HN", phone: 504 },
     { name: "Hong Kong", code: "HK", phone: 852 },
-    { name: "Hongrie", code: "HU", phone: 967 },
-    { name: "Île de Man", code: "IM", phone: 967 },
-    { name: "Îles mineures éloignées des Etats-Unis", code: "UM", phone: 967 },
-    { name: "Îles vierges britanniques", code: "VG", phone: 967 },
-    { name: "Îles vierges des Etats-Unis", code: "VI", phone: 967 },
-    { name: "Inde", code: "IN", phone: 967 },
-    { name: "Indien (Territoire britannique de l'océan)", code: "IO", phone: 967 },
-    { name: "Indonésie", code: "ID", phone: 967 },
-    { name: "Iran, République islamique d'", code: "IR", phone: 967 },
-    { name: "Iraq", code: "IQ", phone: 967 },
-    { name: "Irlande", code: "ER", phone: 967 },
-    { name: "Islande", code: "IS", phone: 967 },
-    { name: "Israël", code: "IL", phone: 967 },
-    { name: "Italie", code: "IT", phone: 967 },
-    { name: "Jamaïque", code: "JM", phone: 967 },
-    { name: "Japon", code: "JP", phone: 967 },
-    { name: "Jersey", code: "JE", phone: 967 },
-    { name: "Jordanie", code: "JO", phone: 967 },
-    { name: "Kazakhstan", code: "KZ", phone: 967 },
-    { name: "Kenya", code: "KE", phone: 967 },
+    { name: "Hongrie", code: "HU", phone: 36 },
+    { name: "Inde", code: "IN", phone: 91 },
+    { name: "Indonésie", code: "ID", phone: 62 },
+    { name: "Iran'", code: "IR", phone: 98 },
+    { name: "Iraq", code: "IQ", phone: 964 },
+    { name: "Irlande", code: "ER", phone: 353 },
+    { name: "Islande", code: "IS", phone: 354 },
+    { name: "Israël", code: "IL", phone: 972 },
+    { name: "Italie", code: "IT", phone: 39 },
+    { name: "Jamaïque", code: "JM", phone: 1876 },
+    { name: "Japon", code: "JP", phone: 81 },
+    { name: "Jersey", code: "JE", phone: 44 },
+    { name: "Jordanie", code: "JO", phone: 962 },
+    { name: "Kazakhstan", code: "KZ", phone: 997 },
+    { name: "Kenya", code: "KE", phone: 254 },
     { name: "Kirghizistan", code: "KG", phone: 967 },
     { name: "Kiribati", code: "KI", phone: 967 },
     { name: "Koweït", code: "KW", phone: 967 },
@@ -269,17 +264,17 @@ countries.forEach(country => {
 });
 
 function selectOption(){
-	console.log(this);
-	const icon = this.querySelector('.iconify').cloneNode(true),
-		phone_code = this.querySelector('strong').cloneNode(true);
+    console.log(this);
+    const icon = this.querySelector('.iconify').cloneNode(true),
+        phone_code = this.querySelector('strong').cloneNode(true);
 
-	selected_option.innerHTML = '';
-	selected_option.append(icon, phone_code);
+    selected_option.innerHTML = '';
+    selected_option.append(icon, phone_code);
 
-	//mettre le code du pays dans le champs de saisi
-	input_box.value = phone_code.innerText;
-	//desactiver l'affichage des pays après avoir selectionner votre pays
-	select_box.classList.remove('active');
+    //mettre le code du pays dans le champs de saisi
+    input_box.value = phone_code.innerText;
+    //desactiver l'affichage des pays après avoir selectionner votre pays
+    select_box.classList.remove('active');
     selected_option.classList.remove('active');
 }
 
