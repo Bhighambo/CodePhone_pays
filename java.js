@@ -206,21 +206,19 @@ const countries = [
     { name: "Tunisie", code: "TN", phone: 216 },
     { name: "Turkménistan", code: "TM", phone: 993 },
     { name: "Turks-et-Caïcos (Îles)", code: "TC", phone: 1649 },
-    { name: "Turquie", code: "TR", phone: 967 },
-    { name: "Tuvalu", code: "TV", phone: 967 },
-    { name: "Ukraine", code: "UA", phone: 967 },
-    { name: "URSS", code: "SU", phone: 967 },
-    { name: "Uruguay", code: "UY", phone: 967 },
-    { name: "Vanuatu", code: "VU", phone: 967 },
+    { name: "Turquie", code: "TR", phone: 90 },
+    { name: "Tuvalu", code: "TV", phone: 688 },
+    { name: "Ukraine", code: "UA", phone: 380 },
+    { name: "Uruguay", code: "UY", phone: 598 },
+    { name: "Vanuatu", code: "VU", phone: 678 },
     { name: "Vatican", code: "VA", phone: 379 },
-    { name: "Venezuela", code: "VE", phone: 967 },
-    { name: "Viet Nam", code: "VN", phone: 967 },
-    { name: "Viet Nam (Sud)", code: "VD", phone: 967 },
-    { name: "Wallis et Futuna", code: "WF", phone: 967 },
+    { name: "Venezuela", code: "VE", phone: 58 },
+    { name: "Viet Nam", code: "VN", phone: 84 },
+    { name: "Viet Nam (Sud)", code: "VD", phone: 84 },
+    { name: "Wallis et Futuna", code: "WF", phone: 681 },
     { name: "Yémen", code: "YE", phone: 967 },
-    { name: "Yougoslavie", code: "YU", phone: 967 },
-    { name: "Zambie", code: "ZM", phone: 967 },
-    { name: "Zimbabwe", code: "ZW", phone: 967 }
+    { name: "Zambie", code: "ZM", phone: 260 },
+    { name: "Zimbabwe", code: "ZW", phone: 263 }
 
 ];
 
