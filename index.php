@@ -23,7 +23,7 @@
 			</ol>
 		</div>
 	</div>
-	<script src="script.js"></script>
+	<script src="java.js"></script>
 
 </body>
 </html>
