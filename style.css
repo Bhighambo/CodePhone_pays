@@ -101,7 +101,7 @@ input[type="tel"]{
 	border: .6rem solid transparent;
 	border-bottom-color: var(--primary);
 }
-input.search-box {
+.search-box {
 	background-color: var(--primary);
 	color: white;
 	border-radius: .5rem .5rem 0 0;

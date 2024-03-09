@@ -14,10 +14,11 @@
 				<span class="iconify" data-icon="flag:cd-4x3"></span>
 				<strong>+243</strong>
 			</div>
-			<input type="tel" name="tel" placeholder="Phone Number">
+				<input type="tel" name="tel" placeholder="Phone Number" value="+243">
 		</div>
-		<div class="options">
+		<div class="options"><!-- 
 			<input type="text" name="" class="search-box" placeholder="Recheche du pays">
+			<label class="search-box">Liste des pays</label> -->
 			<ol>
 
 			</ol>
